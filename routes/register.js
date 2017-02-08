@@ -27,6 +27,9 @@ router.post('/', function (req, res) {
         res.sendStatus(500);
       } else {
         console.log('created new user');
+
+// TODO // also want to log person in if successful
+
         res.sendStatus(201);
 
       }
